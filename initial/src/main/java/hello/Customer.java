@@ -3,7 +3,7 @@ package hello;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;
 
-//@ToString
+@ToString
 public class Customer {
 
     @Id
