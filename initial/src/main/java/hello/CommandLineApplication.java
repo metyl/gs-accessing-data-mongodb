@@ -11,9 +11,11 @@ public class CommandLineApplication implements CommandLineRunner {
     @Autowired
     CustomerRepository repository;
 
+/*
     public static void main(String[] args) {
         SpringApplication.run(CommandLineApplication.class, args);
     }
+*/
 
     @Override
     public void run(String... strings) throws Exception {
