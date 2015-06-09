@@ -1,9 +1,9 @@
 package hello;
 
-import lombok.ToString;
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 
-@ToString
+@Data
 public class Customer {
 
     @Id
