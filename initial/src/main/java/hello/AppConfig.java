@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @ConfigurationProperties(prefix = "hello")
-public class Config {
+public class AppConfig {
 
     private String defaultName;
 
