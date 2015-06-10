@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "hello.defaultName",
+      "type": "java.lang.String",
+      "description": "Description for hello.defaultName."
+    }
+  ]
+}
