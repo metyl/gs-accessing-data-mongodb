@@ -12,10 +12,10 @@ public class CustomerController {
     private CustomerRepository repository;
 
     @Autowired
-    AppConfig appConfig;
+    ApplicationProperties applicationProperties;
 
     @RequestMapping("/customer")
     Customer customer(@RequestParam(value = "name", required = false) String name) {
-        return repository.findByFirstName(name != null ? name : appConfig.getDefaultName());
+        return repository.findByFirstName(name != null ? name : applicationProperties.getDefaultName());
     }
 }
